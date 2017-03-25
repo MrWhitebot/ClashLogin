@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040E0CBAA379BAAF041E07C3 /* Pods_ClashLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEE4F39317C4E2205069EE4 /* Pods_ClashLoginTests.framework */; };
+		23D30AB3976E36AD7A79B1DA /* Pods_ClashLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F590799049819DE52C99F0 /* Pods_ClashLogin.framework */; };
+		521437CD1E86D9420021A40B /* Appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 521437CA1E86D9420021A40B /* Appicon.png */; };
+		521437CE1E86D9420021A40B /* clashroyalelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 521437CB1E86D9420021A40B /* clashroyalelogo.png */; };
+		521437CF1E86D9420021A40B /* utad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 521437CC1E86D9420021A40B /* utad.jpg */; };
+		521437D11E86EDD20021A40B /* cr.png in Resources */ = {isa = PBXBuildFile; fileRef = 521437D01E86EDD20021A40B /* cr.png */; };
 		527B9AE61E86D4AB000A6398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AE51E86D4AB000A6398 /* AppDelegate.swift */; };
 		527B9AE81E86D4AB000A6398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AE71E86D4AB000A6398 /* ViewController.swift */; };
 		527B9AEB1E86D4AB000A6398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B9AE91E86D4AB000A6398 /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		527B9AF01E86D4AB000A6398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B9AEE1E86D4AB000A6398 /* LaunchScreen.storyboard */; };
 		527B9AFB1E86D4AB000A6398 /* ClashLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AFA1E86D4AB000A6398 /* ClashLoginTests.swift */; };
 		527B9B061E86D4AB000A6398 /* ClashLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9B051E86D4AB000A6398 /* ClashLoginUITests.swift */; };
+		DA90B0A305D5A41B894B5D1D /* Pods_ClashLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7FB225987D954AE336E157 /* Pods_ClashLoginUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B09EB24450CAF081EB81671 /* Pods-ClashLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClashLogin/Pods-ClashLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		3FAF952BFC1940A6596CD266 /* Pods-ClashLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashLoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClashLoginTests/Pods-ClashLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		521437CA1E86D9420021A40B /* Appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Appicon.png; path = ClashLogin/Recursos/Appicon.png; sourceTree = "<group>"; };
+		521437CB1E86D9420021A40B /* clashroyalelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clashroyalelogo.png; path = ClashLogin/Recursos/clashroyalelogo.png; sourceTree = "<group>"; };
+		521437CC1E86D9420021A40B /* utad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = utad.jpg; path = ClashLogin/Recursos/utad.jpg; sourceTree = "<group>"; };
+		521437D01E86EDD20021A40B /* cr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cr.png; path = "../../../Dropbox/mrwhitebot.github.io-master/images/cr.png"; sourceTree = "<group>"; };
 		527B9AE21E86D4AB000A6398 /* ClashLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527B9AE51E86D4AB000A6398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527B9AE71E86D4AB000A6398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,13 @@
 		527B9B011E86D4AB000A6398 /* ClashLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClashLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527B9B051E86D4AB000A6398 /* ClashLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashLoginUITests.swift; sourceTree = "<group>"; };
 		527B9B071E86D4AB000A6398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58214A34B85C1C75D4A8BD5E /* Pods-ClashLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashLoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClashLoginTests/Pods-ClashLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B7FB225987D954AE336E157 /* Pods_ClashLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClashLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9A7A2382202C572EA0AC7C /* Pods-ClashLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashLoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClashLoginUITests/Pods-ClashLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9954D1565EC749B1AB9CDE81 /* Pods-ClashLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashLoginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClashLoginUITests/Pods-ClashLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5F590799049819DE52C99F0 /* Pods_ClashLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClashLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEE4F39317C4E2205069EE4 /* Pods_ClashLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClashLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19F56ECF2C0C7044DAECACE /* Pods-ClashLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClashLogin/Pods-ClashLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D30AB3976E36AD7A79B1DA /* Pods_ClashLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040E0CBAA379BAAF041E07C3 /* Pods_ClashLoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA90B0A305D5A41B894B5D1D /* Pods_ClashLoginUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24328CEE9618C71B303900EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F590799049819DE52C99F0 /* Pods_ClashLogin.framework */,
+				BFEE4F39317C4E2205069EE4 /* Pods_ClashLoginTests.framework */,
+				5B7FB225987D954AE336E157 /* Pods_ClashLoginUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		527B9AD91E86D4AB000A6398 = {
 			isa = PBXGroup;
 			children = (
+				521437D01E86EDD20021A40B /* cr.png */,
+				521437CA1E86D9420021A40B /* Appicon.png */,
+				521437CB1E86D9420021A40B /* clashroyalelogo.png */,
+				521437CC1E86D9420021A40B /* utad.jpg */,
 				527B9AE41E86D4AB000A6398 /* ClashLogin */,
 				527B9AF91E86D4AB000A6398 /* ClashLoginTests */,
 				527B9B041E86D4AB000A6398 /* ClashLoginUITests */,
 				527B9AE31E86D4AB000A6398 /* Products */,
+				E7FA48F9C4565C98E900F10D /* Pods */,
+				24328CEE9618C71B303900EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +164,19 @@
 			path = ClashLoginUITests;
 			sourceTree = "<group>";
 		};
+		E7FA48F9C4565C98E900F10D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B09EB24450CAF081EB81671 /* Pods-ClashLogin.debug.xcconfig */,
+				D19F56ECF2C0C7044DAECACE /* Pods-ClashLogin.release.xcconfig */,
+				3FAF952BFC1940A6596CD266 /* Pods-ClashLoginTests.debug.xcconfig */,
+				58214A34B85C1C75D4A8BD5E /* Pods-ClashLoginTests.release.xcconfig */,
+				7B9A7A2382202C572EA0AC7C /* Pods-ClashLoginUITests.debug.xcconfig */,
+				9954D1565EC749B1AB9CDE81 /* Pods-ClashLoginUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 527B9B0A1E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLogin" */;
 			buildPhases = (
+				0614B7FEF1092DDBB3E6E1E6 /* [CP] Check Pods Manifest.lock */,
 				527B9ADE1E86D4AB000A6398 /* Sources */,
 				527B9ADF1E86D4AB000A6398 /* Frameworks */,
 				527B9AE01E86D4AB000A6398 /* Resources */,
+				27619AED78520B2F144CE7BE /* [CP] Embed Pods Frameworks */,
+				5A4197230D5740808ED6E7FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 527B9B0D1E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLoginTests" */;
 			buildPhases = (
+				C769CF3611025F4B06991EBE /* [CP] Check Pods Manifest.lock */,
 				527B9AF21E86D4AB000A6398 /* Sources */,
 				527B9AF31E86D4AB000A6398 /* Frameworks */,
 				527B9AF41E86D4AB000A6398 /* Resources */,
+				02EABDD58EBA3500EC858D52 /* [CP] Embed Pods Frameworks */,
+				130FB10C77B007B9917A86EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 527B9B101E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLoginUITests" */;
 			buildPhases = (
+				3944589BC2121D5A29ABBA01 /* [CP] Check Pods Manifest.lock */,
 				527B9AFD1E86D4AB000A6398 /* Sources */,
 				527B9AFE1E86D4AB000A6398 /* Frameworks */,
 				527B9AFF1E86D4AB000A6398 /* Resources */,
+				41F03AC8E0F2511C789C3F78 /* [CP] Embed Pods Frameworks */,
+				1C87FEB21AA3140411A9BFDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +296,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521437CD1E86D9420021A40B /* Appicon.png in Resources */,
+				521437CF1E86D9420021A40B /* utad.jpg in Resources */,
 				527B9AF01E86D4AB000A6398 /* LaunchScreen.storyboard in Resources */,
 				527B9AED1E86D4AB000A6398 /* Assets.xcassets in Resources */,
 				527B9AEB1E86D4AB000A6398 /* Main.storyboard in Resources */,
+				521437D11E86EDD20021A40B /* cr.png in Resources */,
+				521437CE1E86D9420021A40B /* clashroyalelogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +321,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02EABDD58EBA3500EC858D52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClashLoginTests/Pods-ClashLoginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0614B7FEF1092DDBB3E6E1E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		130FB10C77B007B9917A86EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClashLoginTests/Pods-ClashLoginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C87FEB21AA3140411A9BFDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClashLoginUITests/Pods-ClashLoginUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27619AED78520B2F144CE7BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClashLogin/Pods-ClashLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3944589BC2121D5A29ABBA01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41F03AC8E0F2511C789C3F78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClashLoginUITests/Pods-ClashLoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A4197230D5740808ED6E7FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClashLogin/Pods-ClashLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C769CF3611025F4B06991EBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		527B9ADE1E86D4AB000A6398 /* Sources */ = {
@@ -411,6 +614,7 @@
 		};
 		527B9B0B1E86D4AB000A6398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B09EB24450CAF081EB81671 /* Pods-ClashLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63VSHT7X9M;
@@ -424,6 +628,7 @@
 		};
 		527B9B0C1E86D4AB000A6398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19F56ECF2C0C7044DAECACE /* Pods-ClashLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 63VSHT7X9M;
@@ -437,6 +642,7 @@
 		};
 		527B9B0E1E86D4AB000A6398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAF952BFC1940A6596CD266 /* Pods-ClashLoginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +658,7 @@
 		};
 		527B9B0F1E86D4AB000A6398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58214A34B85C1C75D4A8BD5E /* Pods-ClashLoginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +674,7 @@
 		};
 		527B9B111E86D4AB000A6398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9A7A2382202C572EA0AC7C /* Pods-ClashLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 63VSHT7X9M;
@@ -481,6 +689,7 @@
 		};
 		527B9B121E86D4AB000A6398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9954D1565EC749B1AB9CDE81 /* Pods-ClashLoginUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 63VSHT7X9M;
@@ -512,6 +721,7 @@
 				527B9B0C1E86D4AB000A6398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527B9B0D1E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +730,7 @@
 				527B9B0F1E86D4AB000A6398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527B9B101E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +739,7 @@
 				527B9B121E86D4AB000A6398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

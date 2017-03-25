@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var btnLog: UIButton?
+    @IBOutlet var txtUser: UITextField?
+    @IBOutlet var txtPass: UITextField?
+    @IBOutlet var txtMen: UITextView?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +23,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    @IBAction func AccbtnLog(){
+       //txtMen?.text="USUARIO INCORRECTO"
+        //txtMen?.text=String(format: "Usuario: %@ Contraseña: %@", (txtUser?.text)!, (txtPass?.text)!)
+        self.performSegue(withIdentifier: "Log", sender: self)
+    }
 
 }
 
