@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527B9AE61E86D4AB000A6398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AE51E86D4AB000A6398 /* AppDelegate.swift */; };
+		527B9AE81E86D4AB000A6398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AE71E86D4AB000A6398 /* ViewController.swift */; };
+		527B9AEB1E86D4AB000A6398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B9AE91E86D4AB000A6398 /* Main.storyboard */; };
+		527B9AED1E86D4AB000A6398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527B9AEC1E86D4AB000A6398 /* Assets.xcassets */; };
+		527B9AF01E86D4AB000A6398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B9AEE1E86D4AB000A6398 /* LaunchScreen.storyboard */; };
+		527B9AFB1E86D4AB000A6398 /* ClashLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AFA1E86D4AB000A6398 /* ClashLoginTests.swift */; };
+		527B9B061E86D4AB000A6398 /* ClashLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9B051E86D4AB000A6398 /* ClashLoginUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527B9AF71E86D4AB000A6398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527B9ADA1E86D4AB000A6398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527B9AE11E86D4AB000A6398;
+			remoteInfo = ClashLogin;
+		};
+		527B9B021E86D4AB000A6398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527B9ADA1E86D4AB000A6398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527B9AE11E86D4AB000A6398;
+			remoteInfo = ClashLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527B9AE21E86D4AB000A6398 /* ClashLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527B9AE51E86D4AB000A6398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527B9AE71E86D4AB000A6398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527B9AEA1E86D4AB000A6398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527B9AEC1E86D4AB000A6398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527B9AEF1E86D4AB000A6398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527B9AF11E86D4AB000A6398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527B9AF61E86D4AB000A6398 /* ClashLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClashLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527B9AFA1E86D4AB000A6398 /* ClashLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashLoginTests.swift; sourceTree = "<group>"; };
+		527B9AFC1E86D4AB000A6398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527B9B011E86D4AB000A6398 /* ClashLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClashLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527B9B051E86D4AB000A6398 /* ClashLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashLoginUITests.swift; sourceTree = "<group>"; };
+		527B9B071E86D4AB000A6398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527B9ADF1E86D4AB000A6398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B9AF31E86D4AB000A6398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B9AFE1E86D4AB000A6398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527B9AD91E86D4AB000A6398 = {
+			isa = PBXGroup;
+			children = (
+				527B9AE41E86D4AB000A6398 /* ClashLogin */,
+				527B9AF91E86D4AB000A6398 /* ClashLoginTests */,
+				527B9B041E86D4AB000A6398 /* ClashLoginUITests */,
+				527B9AE31E86D4AB000A6398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527B9AE31E86D4AB000A6398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527B9AE21E86D4AB000A6398 /* ClashLogin.app */,
+				527B9AF61E86D4AB000A6398 /* ClashLoginTests.xctest */,
+				527B9B011E86D4AB000A6398 /* ClashLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527B9AE41E86D4AB000A6398 /* ClashLogin */ = {
+			isa = PBXGroup;
+			children = (
+				527B9AE51E86D4AB000A6398 /* AppDelegate.swift */,
+				527B9AE71E86D4AB000A6398 /* ViewController.swift */,
+				527B9AE91E86D4AB000A6398 /* Main.storyboard */,
+				527B9AEC1E86D4AB000A6398 /* Assets.xcassets */,
+				527B9AEE1E86D4AB000A6398 /* LaunchScreen.storyboard */,
+				527B9AF11E86D4AB000A6398 /* Info.plist */,
+			);
+			path = ClashLogin;
+			sourceTree = "<group>";
+		};
+		527B9AF91E86D4AB000A6398 /* ClashLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				527B9AFA1E86D4AB000A6398 /* ClashLoginTests.swift */,
+				527B9AFC1E86D4AB000A6398 /* Info.plist */,
+			);
+			path = ClashLoginTests;
+			sourceTree = "<group>";
+		};
+		527B9B041E86D4AB000A6398 /* ClashLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				527B9B051E86D4AB000A6398 /* ClashLoginUITests.swift */,
+				527B9B071E86D4AB000A6398 /* Info.plist */,
+			);
+			path = ClashLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527B9AE11E86D4AB000A6398 /* ClashLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527B9B0A1E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLogin" */;
+			buildPhases = (
+				527B9ADE1E86D4AB000A6398 /* Sources */,
+				527B9ADF1E86D4AB000A6398 /* Frameworks */,
+				527B9AE01E86D4AB000A6398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClashLogin;
+			productName = ClashLogin;
+			productReference = 527B9AE21E86D4AB000A6398 /* ClashLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527B9AF51E86D4AB000A6398 /* ClashLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527B9B0D1E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLoginTests" */;
+			buildPhases = (
+				527B9AF21E86D4AB000A6398 /* Sources */,
+				527B9AF31E86D4AB000A6398 /* Frameworks */,
+				527B9AF41E86D4AB000A6398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527B9AF81E86D4AB000A6398 /* PBXTargetDependency */,
+			);
+			name = ClashLoginTests;
+			productName = ClashLoginTests;
+			productReference = 527B9AF61E86D4AB000A6398 /* ClashLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		527B9B001E86D4AB000A6398 /* ClashLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527B9B101E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLoginUITests" */;
+			buildPhases = (
+				527B9AFD1E86D4AB000A6398 /* Sources */,
+				527B9AFE1E86D4AB000A6398 /* Frameworks */,
+				527B9AFF1E86D4AB000A6398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527B9B031E86D4AB000A6398 /* PBXTargetDependency */,
+			);
+			name = ClashLoginUITests;
+			productName = ClashLoginUITests;
+			productReference = 527B9B011E86D4AB000A6398 /* ClashLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527B9ADA1E86D4AB000A6398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Manuel Blanco Suaña";
+				TargetAttributes = {
+					527B9AE11E86D4AB000A6398 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63VSHT7X9M;
+						ProvisioningStyle = Automatic;
+					};
+					527B9AF51E86D4AB000A6398 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63VSHT7X9M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 527B9AE11E86D4AB000A6398;
+					};
+					527B9B001E86D4AB000A6398 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 63VSHT7X9M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 527B9AE11E86D4AB000A6398;
+					};
+				};
+			};
+			buildConfigurationList = 527B9ADD1E86D4AB000A6398 /* Build configuration list for PBXProject "ClashLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527B9AD91E86D4AB000A6398;
+			productRefGroup = 527B9AE31E86D4AB000A6398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527B9AE11E86D4AB000A6398 /* ClashLogin */,
+				527B9AF51E86D4AB000A6398 /* ClashLoginTests */,
+				527B9B001E86D4AB000A6398 /* ClashLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527B9AE01E86D4AB000A6398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B9AF01E86D4AB000A6398 /* LaunchScreen.storyboard in Resources */,
+				527B9AED1E86D4AB000A6398 /* Assets.xcassets in Resources */,
+				527B9AEB1E86D4AB000A6398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B9AF41E86D4AB000A6398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B9AFF1E86D4AB000A6398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527B9ADE1E86D4AB000A6398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B9AE81E86D4AB000A6398 /* ViewController.swift in Sources */,
+				527B9AE61E86D4AB000A6398 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B9AF21E86D4AB000A6398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B9AFB1E86D4AB000A6398 /* ClashLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527B9AFD1E86D4AB000A6398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B9B061E86D4AB000A6398 /* ClashLoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527B9AF81E86D4AB000A6398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527B9AE11E86D4AB000A6398 /* ClashLogin */;
+			targetProxy = 527B9AF71E86D4AB000A6398 /* PBXContainerItemProxy */;
+		};
+		527B9B031E86D4AB000A6398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527B9AE11E86D4AB000A6398 /* ClashLogin */;
+			targetProxy = 527B9B021E86D4AB000A6398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		527B9AE91E86D4AB000A6398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527B9AEA1E86D4AB000A6398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527B9AEE1E86D4AB000A6398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527B9AEF1E86D4AB000A6398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527B9B081E86D4AB000A6398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527B9B091E86D4AB000A6398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527B9B0B1E86D4AB000A6398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63VSHT7X9M;
+				INFOPLIST_FILE = ClashLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBS.ClashLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		527B9B0C1E86D4AB000A6398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 63VSHT7X9M;
+				INFOPLIST_FILE = ClashLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBS.ClashLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		527B9B0E1E86D4AB000A6398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63VSHT7X9M;
+				INFOPLIST_FILE = ClashLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBS.ClashLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClashLogin.app/ClashLogin";
+			};
+			name = Debug;
+		};
+		527B9B0F1E86D4AB000A6398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 63VSHT7X9M;
+				INFOPLIST_FILE = ClashLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBS.ClashLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClashLogin.app/ClashLogin";
+			};
+			name = Release;
+		};
+		527B9B111E86D4AB000A6398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63VSHT7X9M;
+				INFOPLIST_FILE = ClashLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBS.ClashLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClashLogin;
+			};
+			name = Debug;
+		};
+		527B9B121E86D4AB000A6398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63VSHT7X9M;
+				INFOPLIST_FILE = ClashLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MBS.ClashLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ClashLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527B9ADD1E86D4AB000A6398 /* Build configuration list for PBXProject "ClashLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527B9B081E86D4AB000A6398 /* Debug */,
+				527B9B091E86D4AB000A6398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527B9B0A1E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527B9B0B1E86D4AB000A6398 /* Debug */,
+				527B9B0C1E86D4AB000A6398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		527B9B0D1E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527B9B0E1E86D4AB000A6398 /* Debug */,
+				527B9B0F1E86D4AB000A6398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		527B9B101E86D4AB000A6398 /* Build configuration list for PBXNativeTarget "ClashLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527B9B111E86D4AB000A6398 /* Debug */,
+				527B9B121E86D4AB000A6398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527B9ADA1E86D4AB000A6398 /* Project object */;
+}
