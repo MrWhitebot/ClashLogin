@@ -25,8 +25,13 @@ class ViewController: UIViewController {
     }
     @IBAction func AccbtnLog(){
        //txtMen?.text="USUARIO INCORRECTO"
-        //txtMen?.text=String(format: "Usuario: %@ Contraseña: %@", (txtUser?.text)!, (txtPass?.text)!)
-        self.performSegue(withIdentifier: "Log", sender: self)
+        //
+       
+        if txtUser?.text=="Manuel" && txtPass?.text=="12345"{
+             self.performSegue(withIdentifier: "Log", sender: self)
+        }else{
+            txtMen?.text=String(format: "Usuario o contraseña Incorrectos", (txtUser?.text)!, (txtPass?.text)!)
+         }
     }
 
 }

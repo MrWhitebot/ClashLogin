@@ -51,5 +51,161 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClashLogin/AppDelegate.swift"
+            timestampString = "512176531.288345"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClashLogin.AppDelegate.__deallocating_deinit"
+                  moduleName = "ClashLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MrWhite/Documents/SWIFT/ClashLogin/ClashLogin/AppDelegate.swift"
+                  timestampString = "512176614.327648"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClashLogin.AppDelegate.init () -&gt; ClashLogin.AppDelegate"
+                  moduleName = "ClashLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MrWhite/Documents/SWIFT/ClashLogin/ClashLogin/AppDelegate.swift"
+                  timestampString = "512176614.329978"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClashLogin.AppDelegate.__allocating_init () -&gt; ClashLogin.AppDelegate"
+                  moduleName = "ClashLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MrWhite/Documents/SWIFT/ClashLogin/ClashLogin/AppDelegate.swift"
+                  timestampString = "512176614.332267"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ClashLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MrWhite/Documents/SWIFT/ClashLogin/ClashLogin/AppDelegate.swift"
+                  timestampString = "512176614.335292"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClashLogin/AppDelegate.swift"
+            timestampString = "512176615.453965"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClashLogin.AppDelegate.__deallocating_deinit"
+                  moduleName = "ClashLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MrWhite/Documents/SWIFT/ClashLogin/ClashLogin/AppDelegate.swift"
+                  timestampString = "512176615.464468"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClashLogin.AppDelegate.init () -&gt; ClashLogin.AppDelegate"
+                  moduleName = "ClashLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MrWhite/Documents/SWIFT/ClashLogin/ClashLogin/AppDelegate.swift"
+                  timestampString = "512176615.467599"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClashLogin.AppDelegate.__allocating_init () -&gt; ClashLogin.AppDelegate"
+                  moduleName = "ClashLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MrWhite/Documents/SWIFT/ClashLogin/ClashLogin/AppDelegate.swift"
+                  timestampString = "512176615.469694"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ClashLogin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MrWhite/Documents/SWIFT/ClashLogin/ClashLogin/AppDelegate.swift"
+                  timestampString = "512176615.470969"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

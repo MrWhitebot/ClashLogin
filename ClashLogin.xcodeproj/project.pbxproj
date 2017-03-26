@@ -13,6 +13,11 @@
 		521437CE1E86D9420021A40B /* clashroyalelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 521437CB1E86D9420021A40B /* clashroyalelogo.png */; };
 		521437CF1E86D9420021A40B /* utad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 521437CC1E86D9420021A40B /* utad.jpg */; };
 		521437D11E86EDD20021A40B /* cr.png in Resources */ = {isa = PBXBuildFile; fileRef = 521437D01E86EDD20021A40B /* cr.png */; };
+		524386741E87082000F4E1F8 /* VCRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524386731E87082000F4E1F8 /* VCRegistro.swift */; };
+		524386761E870BD800F4E1F8 /* VCListado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524386751E870BD800F4E1F8 /* VCListado.swift */; };
+		524386781E872EE100F4E1F8 /* TVCMiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524386771E872EE100F4E1F8 /* TVCMiCelda.swift */; };
+		5243867C1E873EF600F4E1F8 /* VCCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243867B1E873EF600F4E1F8 /* VCCollection.swift */; };
+		524386801E87465600F4E1F8 /* CVCMiCelda2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243867F1E87465600F4E1F8 /* CVCMiCelda2.swift */; };
 		527B9AE61E86D4AB000A6398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AE51E86D4AB000A6398 /* AppDelegate.swift */; };
 		527B9AE81E86D4AB000A6398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AE71E86D4AB000A6398 /* ViewController.swift */; };
 		527B9AEB1E86D4AB000A6398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B9AE91E86D4AB000A6398 /* Main.storyboard */; };
@@ -47,6 +52,11 @@
 		521437CB1E86D9420021A40B /* clashroyalelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clashroyalelogo.png; path = ClashLogin/Recursos/clashroyalelogo.png; sourceTree = "<group>"; };
 		521437CC1E86D9420021A40B /* utad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = utad.jpg; path = ClashLogin/Recursos/utad.jpg; sourceTree = "<group>"; };
 		521437D01E86EDD20021A40B /* cr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cr.png; path = "../../../Dropbox/mrwhitebot.github.io-master/images/cr.png"; sourceTree = "<group>"; };
+		524386731E87082000F4E1F8 /* VCRegistro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCRegistro.swift; sourceTree = "<group>"; };
+		524386751E870BD800F4E1F8 /* VCListado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCListado.swift; sourceTree = "<group>"; };
+		524386771E872EE100F4E1F8 /* TVCMiCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCMiCelda.swift; sourceTree = "<group>"; };
+		5243867B1E873EF600F4E1F8 /* VCCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCCollection.swift; sourceTree = "<group>"; };
+		5243867F1E87465600F4E1F8 /* CVCMiCelda2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCMiCelda2.swift; sourceTree = "<group>"; };
 		527B9AE21E86D4AB000A6398 /* ClashLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527B9AE51E86D4AB000A6398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527B9AE71E86D4AB000A6398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +152,11 @@
 				527B9AEC1E86D4AB000A6398 /* Assets.xcassets */,
 				527B9AEE1E86D4AB000A6398 /* LaunchScreen.storyboard */,
 				527B9AF11E86D4AB000A6398 /* Info.plist */,
+				524386731E87082000F4E1F8 /* VCRegistro.swift */,
+				524386751E870BD800F4E1F8 /* VCListado.swift */,
+				524386771E872EE100F4E1F8 /* TVCMiCelda.swift */,
+				5243867B1E873EF600F4E1F8 /* VCCollection.swift */,
+				5243867F1E87465600F4E1F8 /* CVCMiCelda2.swift */,
 			);
 			path = ClashLogin;
 			sourceTree = "<group>";
@@ -466,7 +481,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				527B9AE81E86D4AB000A6398 /* ViewController.swift in Sources */,
+				524386801E87465600F4E1F8 /* CVCMiCelda2.swift in Sources */,
 				527B9AE61E86D4AB000A6398 /* AppDelegate.swift in Sources */,
+				5243867C1E873EF600F4E1F8 /* VCCollection.swift in Sources */,
+				524386741E87082000F4E1F8 /* VCRegistro.swift in Sources */,
+				524386781E872EE100F4E1F8 /* TVCMiCelda.swift in Sources */,
+				524386761E870BD800F4E1F8 /* VCListado.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
