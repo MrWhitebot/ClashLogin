@@ -25,6 +25,7 @@
 		527B9AF01E86D4AB000A6398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527B9AEE1E86D4AB000A6398 /* LaunchScreen.storyboard */; };
 		527B9AFB1E86D4AB000A6398 /* ClashLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AFA1E86D4AB000A6398 /* ClashLoginTests.swift */; };
 		527B9B061E86D4AB000A6398 /* ClashLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9B051E86D4AB000A6398 /* ClashLoginUITests.swift */; };
+		528556841E87CE3F007AE3C5 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528556831E87CE3F007AE3C5 /* DataHolder.swift */; };
 		DA90B0A305D5A41B894B5D1D /* Pods_ClashLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7FB225987D954AE336E157 /* Pods_ClashLoginUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		527B9B011E86D4AB000A6398 /* ClashLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClashLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		527B9B051E86D4AB000A6398 /* ClashLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashLoginUITests.swift; sourceTree = "<group>"; };
 		527B9B071E86D4AB000A6398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528556831E87CE3F007AE3C5 /* DataHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		58214A34B85C1C75D4A8BD5E /* Pods-ClashLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashLoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClashLoginTests/Pods-ClashLoginTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B7FB225987D954AE336E157 /* Pods_ClashLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClashLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9A7A2382202C572EA0AC7C /* Pods-ClashLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClashLoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClashLoginUITests/Pods-ClashLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				524386771E872EE100F4E1F8 /* TVCMiCelda.swift */,
 				5243867B1E873EF600F4E1F8 /* VCCollection.swift */,
 				5243867F1E87465600F4E1F8 /* CVCMiCelda2.swift */,
+				528556831E87CE3F007AE3C5 /* DataHolder.swift */,
 			);
 			path = ClashLogin;
 			sourceTree = "<group>";
@@ -483,6 +486,7 @@
 				527B9AE81E86D4AB000A6398 /* ViewController.swift in Sources */,
 				524386801E87465600F4E1F8 /* CVCMiCelda2.swift in Sources */,
 				527B9AE61E86D4AB000A6398 /* AppDelegate.swift in Sources */,
+				528556841E87CE3F007AE3C5 /* DataHolder.swift in Sources */,
 				5243867C1E873EF600F4E1F8 /* VCCollection.swift in Sources */,
 				524386741E87082000F4E1F8 /* VCRegistro.swift in Sources */,
 				524386781E872EE100F4E1F8 /* TVCMiCelda.swift in Sources */,

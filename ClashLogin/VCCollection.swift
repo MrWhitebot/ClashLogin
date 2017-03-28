@@ -23,26 +23,13 @@ class VCCollection: UIViewController, UICollectionViewDelegate, UICollectionView
         // Dispose of any resources that can be recreated.
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return Int(DataHolder.sharedInstance.numCelCol)
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell:CVCMiCelda2 = collectionView.dequeueReusableCell(withReuseIdentifier: "MiCelda2", for: indexPath)as! CVCMiCelda2
-        if (indexPath.row==0){
-            cell.lblnombre?.text="Manuel"
-            cell.imgvMain?.image=UIImage(named: "clashroyalelogo.png")
-        }
-        else if(indexPath.row==1){
-            cell.lblnombre?.text="Ram"
-        }
-        else if(indexPath.row==2){
-            cell.lblnombre?.text="Sergio"
-        }
-        else if(indexPath.row==3){
-            cell.lblnombre?.text="Carlos"
-        }
-        else if(indexPath.row==4){
-            cell.lblnombre?.text="Tay"
-        }
+    
+        cell.lblnombre?.text=DataHolder.sharedInstance.nombreDeCelda(numero: indexPath.row) as String
+        
         return cell
     }
     /*

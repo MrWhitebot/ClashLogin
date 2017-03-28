@@ -15,9 +15,10 @@ class ViewController: UIViewController {
     @IBOutlet var txtPass: UITextField?
     @IBOutlet var txtMen: UITextView?
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+            }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

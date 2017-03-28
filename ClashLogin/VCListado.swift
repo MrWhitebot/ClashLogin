@@ -31,6 +31,7 @@ class VCListado: UIViewController,UITableViewDelegate, UITableViewDataSource {
         //cell.lblnombre?.text="Manuel"
         if (indexPath.row==0){
             cell.lblnombre?.text="Manuel"
+            
         }
         else if(indexPath.row==1){
             cell.lblnombre?.text="Ram"
