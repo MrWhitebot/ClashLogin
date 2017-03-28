@@ -12,6 +12,10 @@ class DataHolder: NSObject {
     
     static let sharedInstance:DataHolder=DataHolder()
     
+    var username: String?
+    
+    var password: String?
+    
     var numCelCol:UInt=5
     
     func nombreDeCelda(numero:Int) -> NSString {

@@ -13,27 +13,31 @@ class ViewController: UIViewController {
     @IBOutlet var btnLog: UIButton?
     @IBOutlet var txtUser: UITextField?
     @IBOutlet var txtPass: UITextField?
-    @IBOutlet var txtMen: UITextView?
+    @IBOutlet weak var lblError: UILabel!
+
     override func viewDidLoad() {
+         super.viewDidLoad()
+         lblError.text = ""
         
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-            }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func AccbtnLog(){
-       //txtMen?.text="USUARIO INCORRECTO"
-        //
-       
-        if txtUser?.text=="Manuel" && txtPass?.text=="12345"{
-             self.performSegue(withIdentifier: "Log", sender: self)
-        }else{
-            txtMen?.text=String(format: "Usuario o contraseña Incorrectos", (txtUser?.text)!, (txtPass?.text)!)
-         }
+
+    @IBAction func btnLogin(_ sender: UIButton) {
+        if (txtUser?.text! == DataHolder.sharedInstance.username && txtPass?.text! == DataHolder.sharedInstance.password){
+            
+            performSegue(withIdentifier: "irLoginCorrecto", sender: nil)
+            
+        } else {
+            
+            lblError.text = "Error durante el login."
+            
+        }
     }
+
 
 }
 

@@ -56,7 +56,7 @@
                                     <color key="titleColor" red="1" green="0.64066255353797208" blue="0.12130387393111053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="AccbtnLog" destination="BYZ-38-t0r" eventType="touchUpInside" id="nMH-tZ-u7i"/>
+                                    <action selector="btnLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ovf-ta-OOW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pe6-U9-Qqb">
@@ -91,17 +91,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clashroyalelogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="l5p-H0-zOk">
-                                <rect key="frame" x="37" y="105" width="340" height="180"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3u8-FI-hd3">
-                                <rect key="frame" x="53" y="529" width="309" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZx-Sz-P3q">
                                 <rect key="frame" x="158" y="363" width="204" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -109,14 +98,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clashroyalelogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="l5p-H0-zOk">
+                                <rect key="frame" x="37" y="105" width="340" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label de Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nB9-sq-KKP">
+                                <rect key="frame" x="20" y="562" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="btnLog" destination="vfG-e6-bxx" id="a44-l8-wSk"/>
-                        <outlet property="txtMen" destination="3u8-FI-hd3" id="3oR-Rh-OJP"/>
+                        <outlet property="lblError" destination="nB9-sq-KKP" id="QHU-EF-nOQ"/>
                         <outlet property="txtPass" destination="yZx-Sz-P3q" id="rgt-Oh-po3"/>
                         <outlet property="txtUser" destination="iIY-mY-cJz" id="wk1-sM-yV0"/>
-                        <segue destination="srS-E2-YHb" kind="show" identifier="Log" id="Big-HS-fqu"/>
+                        <segue destination="srS-E2-YHb" kind="show" identifier="irLoginCorrecto" id="lq1-kc-5Nr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -252,13 +252,18 @@
                                     <color key="titleColor" red="1" green="0.64066255350000001" blue="0.1213038739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="RegisterButton:" destination="Yn2-1E-sRt" eventType="touchUpInside" id="zRX-Qb-qIt"/>
-                                    <action selector="btnRegistrar:" destination="Yn2-1E-sRt" eventType="touchUpInside" id="O5P-UQ-Fps"/>
+                                    <action selector="btnReg:" destination="Yn2-1E-sRt" eventType="touchUpInside" id="gnL-pN-dAY"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="passTextField" destination="qq6-7h-8xG" id="bzM-Gk-66I"/>
+                        <outlet property="repassTextField" destination="3QL-C8-Ud2" id="C85-NQ-C8R"/>
+                        <outlet property="userTExtField" destination="oHe-CZ-mZp" id="6DH-aR-z7L"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="irInicioRegistro" id="vj1-6x-ivQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QH5-aF-s7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -429,6 +434,6 @@
         <image name="utad.jpg" width="1200" height="584"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="11w-aH-dGo"/>
+        <segue reference="vj1-6x-ivQ"/>
     </inferredMetricsTieBreakers>
 </document>
