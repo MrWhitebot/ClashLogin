@@ -23,15 +23,44 @@ class VCCollection: UIViewController, UICollectionViewDelegate, UICollectionView
         // Dispose of any resources that can be recreated.
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return Int(DataHolder.sharedInstance.numCelCol)
+        return Int(8)
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell:CVCMiCelda2 = collectionView.dequeueReusableCell(withReuseIdentifier: "MiCelda2", for: indexPath)as! CVCMiCelda2
+        if (indexPath.row==0){
+            cell.lblnombre?.text="Manuel"
+            cell.imgvMain?.image = #imageLiteral(resourceName: "Mago")
+        }
+        else if(indexPath.row==1){
+            cell.lblnombre?.text="Ram"
+            cell.imgvMain?.image = #imageLiteral(resourceName: "Sab")
+        }
+        else if(indexPath.row==2){
+            cell.lblnombre?.text="Sergio"
+            cell.imgvMain?.image = #imageLiteral(resourceName: "bbd")
+        }
+        else if(indexPath.row==3){
+            cell.lblnombre?.text="Carlos"
+            cell.imgvMain?.image = #imageLiteral(resourceName: "Min")
+        }
+        else if(indexPath.row==4){
+            cell.lblnombre?.text="Tay"
+            cell.imgvMain?.image = #imageLiteral(resourceName: "Prin")
+        }
+        else if(indexPath.row==5){
+            cell.lblnombre?.text="Jorge"
+            cell.imgvMain?.image = #imageLiteral(resourceName: "MdH")
+        }
+        else if(indexPath.row==6){
+            cell.lblnombre?.text="David"
+            cell.imgvMain?.image = #imageLiteral(resourceName: "melec")
+        }
+        else if(indexPath.row==7){
+            cell.lblnombre?.text="Fran"
+            cell.imgvMain?.image = #imageLiteral(resourceName: "bbd")
+        }
     
-        cell.lblnombre?.text=DataHolder.sharedInstance.nombreDeCelda(numero: indexPath.row) as String
-        
-        return cell
-    }
+return cell}
     /*
     // MARK: - Navigation
 

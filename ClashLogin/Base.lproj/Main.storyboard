@@ -21,24 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="8ZW-oG-TQR">
-                                <rect key="frame" x="0.0" y="155" width="414" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="hQC-df-K1J">
-                                <rect key="frame" x="0.0" y="311" width="414" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="Owa-mJ-PkI">
-                                <rect key="frame" x="0.0" y="467" width="414" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="aDf-Er-a0j">
-                                <rect key="frame" x="0.0" y="623" width="414" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ylf-b8-ubC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="208"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr" translatesAutoresizingMaskIntoConstraints="NO" id="QGD-IV-gO1">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="iIY-mY-cJz">
@@ -98,11 +82,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clashroyalelogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="l5p-H0-zOk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clashroyalelogo" translatesAutoresizingMaskIntoConstraints="NO" id="l5p-H0-zOk">
                                 <rect key="frame" x="37" y="105" width="340" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label de Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nB9-sq-KKP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nB9-sq-KKP">
                                 <rect key="frame" x="20" y="562" width="374" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -112,16 +96,16 @@
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="btnLog" destination="vfG-e6-bxx" id="a44-l8-wSk"/>
+                        <outlet property="btnLog" destination="vfG-e6-bxx" id="5hD-wP-sr2"/>
                         <outlet property="lblError" destination="nB9-sq-KKP" id="QHU-EF-nOQ"/>
                         <outlet property="txtPass" destination="yZx-Sz-P3q" id="rgt-Oh-po3"/>
                         <outlet property="txtUser" destination="iIY-mY-cJz" id="wk1-sM-yV0"/>
-                        <segue destination="srS-E2-YHb" kind="show" identifier="irLoginCorrecto" id="lq1-kc-5Nr"/>
+                        <segue destination="LFs-H7-cf3" kind="show" identifier="irLoginCorrecto" id="con-Zz-fFF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-16253.623188405798" y="231.52173913043481"/>
+            <point key="canvasLocation" x="-16125" y="656"/>
         </scene>
         <!--Registro-->
         <scene sceneID="4bG-tj-uBc">
@@ -135,24 +119,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="28H-5w-hX7">
-                                <rect key="frame" x="0.0" y="155" width="414" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="gkY-9a-nhM">
-                                <rect key="frame" x="0.0" y="310" width="414" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="cJp-jA-zAS">
-                                <rect key="frame" x="0.0" y="467" width="414" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="OyU-Fg-PwV">
-                                <rect key="frame" x="0.0" y="623" width="414" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr.png" translatesAutoresizingMaskIntoConstraints="NO" id="HVP-io-WHr">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="208"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr" translatesAutoresizingMaskIntoConstraints="NO" id="NA1-up-dbS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z4K-q2-Skk">
@@ -267,173 +235,199 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QH5-aF-s7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15297.101449275364" y="548.64130434782612"/>
+            <point key="canvasLocation" x="-16126" y="1405"/>
         </scene>
-        <!--Listado-->
-        <scene sceneID="J6G-mz-sVB">
+        <!--Item 2-->
+        <scene sceneID="qVt-w4-El1">
             <objects>
-                <viewController id="srS-E2-YHb" customClass="VCListado" customModule="ClashLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="daQ-MW-HID" customClass="Mapa" customModule="ClashLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qta-ff-09V"/>
-                        <viewControllerLayoutGuide type="bottom" id="cLy-1F-fPp"/>
+                        <viewControllerLayoutGuide type="top" id="XrF-Gx-6FF"/>
+                        <viewControllerLayoutGuide type="bottom" id="HnO-KO-aUI"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="j4n-Cb-zFW">
+                    <view key="view" contentMode="scaleToFill" id="FLb-Jr-JVi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="84" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qfB-gl-yzp">
-                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="58Z-Fy-TOS">
+                                <rect key="frame" x="0.0" y="28" width="414" height="519"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MiCelda1" rowHeight="84" id="MIx-o3-SU9" customClass="TVCMiCelda" customModule="ClashLogin" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="84"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MIx-o3-SU9" id="ua8-36-z2j">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="83.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tD-fD-0of">
-                                                    <rect key="frame" x="111" y="31" width="303" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dy-17-yxw">
-                                                    <rect key="frame" x="335" y="18" width="46" height="47"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <connections>
-                                                        <segue destination="37t-gF-N93" kind="show" id="hQs-oW-Xf9"/>
-                                                    </connections>
-                                                </button>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Appicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="exT-9i-S4j">
-                                                    <rect key="frame" x="21" y="12" width="62" height="60"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="lblnombre" destination="9tD-fD-0of" id="xkO-Eu-AAk"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="srS-E2-YHb" id="yXZ-ko-gzr"/>
-                                    <outlet property="delegate" destination="srS-E2-YHb" id="cnV-Iy-iPt"/>
-                                </connections>
-                            </tableView>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iO0-7c-yNG">
+                                <rect key="frame" x="0.0" y="546" width="414" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="53V-Kn-3h7"/>
                     <connections>
-                        <outlet property="tbMiTabla" destination="qfB-gl-yzp" id="KRV-Nf-FTr"/>
+                        <outlet property="mapView" destination="58Z-Fy-TOS" id="nLm-7X-tDT"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PXb-Iw-YPC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HeC-5t-ICd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-15297.101449275364" y="-86.413043478260875"/>
+            <point key="canvasLocation" x="-14130.434782608696" y="1168.2065217391305"/>
         </scene>
-        <!--Collection-->
-        <scene sceneID="rJb-zj-Iv6">
+        <!--Item 1-->
+        <scene sceneID="ics-Bq-78a">
             <objects>
-                <viewController id="37t-gF-N93" customClass="VCCollection" customModule="ClashLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vfI-Uz-WWO" customClass="VCCollection" customModule="ClashLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xGC-gn-I96"/>
-                        <viewControllerLayoutGuide type="bottom" id="zA6-g4-EbI"/>
+                        <viewControllerLayoutGuide type="top" id="yQD-1K-Lcv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rew-hf-NNd"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="N4n-kB-Qch">
+                    <view key="view" contentMode="scaleToFill" id="bdR-Ol-CFB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VuV-rT-t7B">
-                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oRI-Qd-0zA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RFI-fH-VPf">
-                                    <size key="itemSize" width="140" height="115"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Jgf-0c-xDR">
+                                    <size key="itemSize" width="199" height="171"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
+                                <imageView key="backgroundView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr" id="lwY-oB-hjN">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MiCelda2" id="JKU-bf-cnU" customClass="CVCMiCelda2" customModule="ClashLogin" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="140" height="115"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MiCelda2" id="Aq1-tr-ysB" customClass="CVCMiCelda2" customModule="ClashLogin" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="199" height="171"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="140" height="115"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="199" height="171"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqn-Kq-buV">
-                                                    <rect key="frame" x="8" y="86" width="124" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="W" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrP-DY-o1E">
+                                                    <rect key="frame" x="37" y="142" width="124" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umg-o4-xPm">
-                                                    <rect key="frame" x="47" y="0.0" width="46" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <connections>
-                                                        <segue destination="BYZ-38-t0r" kind="show" id="Y3q-aw-4Ed"/>
-                                                    </connections>
-                                                </button>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="utad.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dVT-tt-If3">
-                                                    <rect key="frame" x="0.0" y="24" width="140" height="66"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LEc-Vz-8pF">
+                                                    <rect key="frame" x="0.0" y="18" width="199" height="110"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <connections>
-                                            <outlet property="imgvMain" destination="dVT-tt-If3" id="bz5-WS-xCR"/>
-                                            <outlet property="lblnombre" destination="Nqn-Kq-buV" id="Zal-jN-wiU"/>
+                                            <outlet property="imgvMain" destination="LEc-Vz-8pF" id="HAT-1p-cYt"/>
+                                            <outlet property="lblnombre" destination="JrP-DY-o1E" id="6dt-Vs-Hue"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
-                                    <outlet property="dataSource" destination="37t-gF-N93" id="1Wk-tu-xEZ"/>
-                                    <outlet property="delegate" destination="37t-gF-N93" id="JXA-aa-D8X"/>
+                                    <outlet property="dataSource" destination="vfI-Uz-WWO" id="fuW-wU-Jbk"/>
+                                    <outlet property="delegate" destination="vfI-Uz-WWO" id="JUd-d8-XnJ"/>
                                 </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="xCQ-Vu-BiU"/>
                     <connections>
-                        <outlet property="colListado" destination="VuV-rT-t7B" id="4OQ-Jp-VQJ"/>
+                        <outlet property="colListado" destination="oRI-Qd-0zA" id="Ixn-xN-bpc"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VUo-Dq-fa9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7J9-as-9fe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14549.275362318842" y="-86.413043478260875"/>
+            <point key="canvasLocation" x="-14128" y="136"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="cXK-p8-1s0">
+        <!--Listado-->
+        <scene sceneID="JoE-2J-Rzq">
             <objects>
-                <viewController id="GnE-ug-e9B" sceneMemberID="viewController">
+                <viewController title="Listado" id="m5y-UI-QhL" customClass="VCListado" customModule="ClashLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mlR-Hs-Aa5"/>
-                        <viewControllerLayoutGuide type="bottom" id="9Zm-lM-Vl5"/>
+                        <viewControllerLayoutGuide type="top" id="dKW-S5-IGe"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sk0-MM-Mht"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ZBr-4M-kda">
+                    <view key="view" contentMode="scaleToFill" id="5I5-eU-2Rz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="84" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OXU-uf-Uv1">
+                                <rect key="frame" x="0.0" y="20" width="414" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.1172627544" green="0.57687293790000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MiCelda1" rowHeight="84" id="JYh-6L-6V8" customClass="TVCMiCelda" customModule="ClashLogin" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="84"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JYh-6L-6V8" id="Ya6-6C-vnO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr" translatesAutoresizingMaskIntoConstraints="NO" id="gTs-YM-Nl6">
+                                                    <rect key="frame" x="0.0" y="-137" width="414" height="562"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CYZ-Ca-eI7">
+                                                    <rect key="frame" x="21" y="12" width="62" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnP-IF-QX1">
+                                                    <rect key="frame" x="111" y="32" width="303" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblnombre" destination="lnP-IF-QX1" id="XTb-Ln-t74"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="m5y-UI-QhL" id="Kp7-GE-b0s"/>
+                                    <outlet property="delegate" destination="m5y-UI-QhL" id="SB7-mC-FpB"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="1TM-tK-kQA"/>
+                    <connections>
+                        <outlet property="tbMiTabla" destination="OXU-uf-Uv1" id="fd4-TC-ps2"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E33-9R-K6Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gk7-Lb-s91" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13807" y="-86"/>
+            <point key="canvasLocation" x="-13430" y="655"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="uAz-lW-2jN">
+            <objects>
+                <tabBarController id="LFs-H7-cf3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="XUE-cE-RQa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="m5y-UI-QhL" kind="relationship" relationship="viewControllers" id="L9z-J7-Hyp"/>
+                        <segue destination="vfI-Uz-WWO" kind="relationship" relationship="viewControllers" id="PrY-sp-1zm"/>
+                        <segue destination="daQ-MW-HID" kind="relationship" relationship="viewControllers" id="LpW-yu-Uft"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7va-Tx-cHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15219" y="655"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Appicon.png" width="256" height="256"/>
-        <image name="clashroyalelogo.png" width="800" height="403"/>
-        <image name="cr.png" width="1920" height="960"/>
-        <image name="utad.jpg" width="1200" height="584"/>
+        <image name="clashroyalelogo" width="800" height="403"/>
+        <image name="cr" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vj1-6x-ivQ"/>
+        <segue reference="11w-aH-dGo"/>
     </inferredMetricsTieBreakers>
 </document>

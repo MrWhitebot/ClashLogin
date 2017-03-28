@@ -29,12 +29,11 @@ class ViewController: UIViewController {
     @IBAction func btnLogin(_ sender: UIButton) {
         if (txtUser?.text! == DataHolder.sharedInstance.username && txtPass?.text! == DataHolder.sharedInstance.password){
             
-            performSegue(withIdentifier: "irLoginCorrecto", sender: nil)
+            performSegue(withIdentifier: "irLoginCorrecto", sender: self)
             
         } else {
             
-            lblError.text = "Error durante el login."
-            
+            lblError.text = "Usuario o Contraseña incorrectos"
         }
     }
 

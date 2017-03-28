@@ -16,24 +16,8 @@ class DataHolder: NSObject {
     
     var password: String?
     
-    var numCelCol:UInt=5
+    var numCelCol:UInt=8
     
-    func nombreDeCelda(numero:Int) -> NSString {
-        if(numero==0){
-            return "Manuel"
-        }
-        else if (numero==1){
-            return "Ram"
-        }
-        else if (numero==2){
-            return "Sergio"
-        }
-        else if(numero==3){
-            return "Carlos"
-        }else if(numero==4){
-            return "Tay"
-        }
-        return ""
     }
     
-}
+

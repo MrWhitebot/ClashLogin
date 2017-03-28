@@ -24,32 +24,45 @@ class VCListado: UIViewController,UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 8
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: TVCMiCelda = tableView.dequeueReusableCell(withIdentifier: "MiCelda1")as! TVCMiCelda
-        //cell.lblnombre?.text="Manuel"
         if (indexPath.row==0){
             cell.lblnombre?.text="Manuel"
-            
+            cell.imageView?.image = #imageLiteral(resourceName: "Mago")
         }
         else if(indexPath.row==1){
             cell.lblnombre?.text="Ram"
+            cell.imageView?.image = #imageLiteral(resourceName: "Sab")
         }
         else if(indexPath.row==2){
             cell.lblnombre?.text="Sergio"
+            cell.imageView?.image = #imageLiteral(resourceName: "bbd")
         }
         else if(indexPath.row==3){
             cell.lblnombre?.text="Carlos"
+            cell.imageView?.image = #imageLiteral(resourceName: "Min")
         }
         else if(indexPath.row==4){
             cell.lblnombre?.text="Tay"
+            cell.imageView?.image = #imageLiteral(resourceName: "Prin")
+        }
+        else if(indexPath.row==5){
+            cell.lblnombre?.text="Jorge"
+            cell.imageView?.image = #imageLiteral(resourceName: "MdH")
+        }
+        else if(indexPath.row==6){
+            cell.lblnombre?.text="David"
+            cell.imageView?.image = #imageLiteral(resourceName: "melec")
+        }
+        else if(indexPath.row==7){
+            cell.lblnombre?.text="Fran"
+            cell.imageView?.image = #imageLiteral(resourceName: "bbd")
         }
         
+        
         return cell
-    }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-       print("He selccionado la posicion: ", indexPath.row)
     }
 
     /*
