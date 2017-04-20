@@ -250,7 +250,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="58Z-Fy-TOS">
-                                <rect key="frame" x="0.0" y="10" width="414" height="584"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="594"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr" translatesAutoresizingMaskIntoConstraints="NO" id="iO0-7c-yNG">
@@ -371,7 +371,7 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="84"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JYh-6L-6V8" id="Ya6-6C-vnO">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr" translatesAutoresizingMaskIntoConstraints="NO" id="gTs-YM-Nl6">
@@ -438,6 +438,6 @@
         <image name="cr" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vj1-6x-ivQ"/>
+        <segue reference="ZS2-Px-jGM"/>
     </inferredMetricsTieBreakers>
 </document>
