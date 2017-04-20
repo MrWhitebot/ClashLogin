@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -27,7 +28,21 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnLogin(_ sender: UIButton) {
-        if (txtUser?.text! == DataHolder.sharedInstance.username && txtPass?.text! == DataHolder.sharedInstance.password){
+        
+        
+        FIRAuth.auth()?.signIn(withEmail: (txtUser?.text)!, password: (txtPass?.text)!) { (user, error) in
+            if (error==nil){
+                self.performSegue(withIdentifier: "irLoginCorrecto", sender: self)
+            }else{
+                print("ERROR EN REGISTRO: ", error!)
+            }
+        }
+
+        
+        
+        
+        
+   if (txtUser?.text! == DataHolder.sharedInstance.username && txtPass?.text! == DataHolder.sharedInstance.password){
             
             performSegue(withIdentifier: "irLoginCorrecto", sender: self)
             
@@ -36,7 +51,5 @@ class ViewController: UIViewController {
             lblError.text = "Usuario o Contraseña incorrectos"
         }
     }
-
-
 }
 
