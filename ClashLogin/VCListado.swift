@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class VCListado: UIViewController,UITableViewDelegate, UITableViewDataSource {
 
@@ -14,8 +16,14 @@ class VCListado: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        DataHolder.sharedInstance.firDataBaseRef.child("Personajes").observe(FIRDataEventType.value, with: { (snapshot) in
+            
+            var arTemp = snapshot.value as? Array<AnyObject>
+            let personaje0 = arTemp?[0] as? [String:AnyObject]
+            print("EL PERSONAJE EN LA POSICION 0 ES: ", personaje0)
+            // print("Lo Descargado es: ",snapshot.value!)
+            
+        })        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
