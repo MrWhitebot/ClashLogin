@@ -14,6 +14,7 @@
 		524386781E872EE100F4E1F8 /* TVCMiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524386771E872EE100F4E1F8 /* TVCMiCelda.swift */; };
 		5243867C1E873EF600F4E1F8 /* VCCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243867B1E873EF600F4E1F8 /* VCCollection.swift */; };
 		524386801E87465600F4E1F8 /* CVCMiCelda2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243867F1E87465600F4E1F8 /* CVCMiCelda2.swift */; };
+		5257130B1EA933290029A81D /* Personajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5257130A1EA933290029A81D /* Personajes.swift */; };
 		527AEEDC1EA615600041BB2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 527AEEDB1EA615600041BB2E /* GoogleService-Info.plist */; };
 		527B9AE61E86D4AB000A6398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AE51E86D4AB000A6398 /* AppDelegate.swift */; };
 		527B9AE81E86D4AB000A6398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527B9AE71E86D4AB000A6398 /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 		524386771E872EE100F4E1F8 /* TVCMiCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCMiCelda.swift; sourceTree = "<group>"; };
 		5243867B1E873EF600F4E1F8 /* VCCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCCollection.swift; sourceTree = "<group>"; };
 		5243867F1E87465600F4E1F8 /* CVCMiCelda2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCMiCelda2.swift; sourceTree = "<group>"; };
+		5257130A1EA933290029A81D /* Personajes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personajes.swift; sourceTree = "<group>"; };
 		527AEEDB1EA615600041BB2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		527B9AE21E86D4AB000A6398 /* ClashLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527B9AE51E86D4AB000A6398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				528556831E87CE3F007AE3C5 /* DataHolder.swift */,
 				52355CC21E8AC3FA00BE0378 /* Mapa.swift */,
 				52E7CB951EA65AFC004F1887 /* LocationAdmin.swift */,
+				5257130A1EA933290029A81D /* Personajes.swift */,
 			);
 			path = ClashLogin;
 			sourceTree = "<group>";
@@ -492,6 +495,7 @@
 				52355CC31E8AC3FA00BE0378 /* Mapa.swift in Sources */,
 				527B9AE61E86D4AB000A6398 /* AppDelegate.swift in Sources */,
 				528556841E87CE3F007AE3C5 /* DataHolder.swift in Sources */,
+				5257130B1EA933290029A81D /* Personajes.swift in Sources */,
 				5243867C1E873EF600F4E1F8 /* VCCollection.swift in Sources */,
 				524386741E87082000F4E1F8 /* VCRegistro.swift in Sources */,
 				524386781E872EE100F4E1F8 /* TVCMiCelda.swift in Sources */,

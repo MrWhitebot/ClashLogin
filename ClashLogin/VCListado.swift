@@ -17,11 +17,11 @@ class VCListado: UIViewController,UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         DataHolder.sharedInstance.firDataBaseRef.child("Personajes").observe(FIRDataEventType.value, with: { (snapshot) in
-            
             var arTemp = snapshot.value as? Array<AnyObject>
-            let personaje0 = arTemp?[0] as? [String:AnyObject]
-            print("EL PERSONAJE EN LA POSICION 0 ES: ", personaje0)
-            // print("Lo Descargado es: ",snapshot.value!)
+            let personaje0=Personajes(valores:arTemp?[0] as![String : AnyObject])
+            //let personaje0 = arTemp?[0] as? [String:AnyObject]
+            print("EL PERSONAJE EN LA POSICION 0 ES: ", personaje0.Carta)
+            //print("Lo Descargado es: ",snapshot.value!)
             
         })        // Do any additional setup after loading the view.
     }
