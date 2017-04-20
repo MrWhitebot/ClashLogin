@@ -220,16 +220,16 @@
                                     <color key="titleColor" red="1" green="0.64066255350000001" blue="0.1213038739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnReg:" destination="Yn2-1E-sRt" eventType="touchUpInside" id="gnL-pN-dAY"/>
+                                    <action selector="btnReg:" destination="Yn2-1E-sRt" eventType="touchUpInside" id="Gnh-S1-Ika"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="passTextField" destination="qq6-7h-8xG" id="bzM-Gk-66I"/>
+                        <outlet property="passTextField" destination="qq6-7h-8xG" id="fBo-3M-L9v"/>
                         <outlet property="repassTextField" destination="3QL-C8-Ud2" id="C85-NQ-C8R"/>
-                        <outlet property="userTExtField" destination="oHe-CZ-mZp" id="6DH-aR-z7L"/>
+                        <outlet property="userTExtField" destination="oHe-CZ-mZp" id="Igr-4e-IQA"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="irInicioRegistro" id="vj1-6x-ivQ"/>
                     </connections>
                 </viewController>
@@ -250,7 +250,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="58Z-Fy-TOS">
-                                <rect key="frame" x="0.0" y="28" width="414" height="566"/>
+                                <rect key="frame" x="0.0" y="10" width="414" height="584"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cr" translatesAutoresizingMaskIntoConstraints="NO" id="iO0-7c-yNG">
@@ -438,6 +438,6 @@
         <image name="cr" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ZS2-Px-jGM"/>
+        <segue reference="vj1-6x-ivQ"/>
     </inferredMetricsTieBreakers>
 </document>

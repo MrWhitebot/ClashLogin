@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class VCRegistro: UIViewController {
 
@@ -47,8 +48,16 @@ class VCRegistro: UIViewController {
         present(myAlert2, animated: true, completion: nil)
         
     }
+    
 
     @IBAction func btnReg(_ sender: UIButton) {
+        FIRAuth.auth()?.createUser(withEmail: (userTExtField?.text)!, password: (passTextField?.text)!) { (user, error) in
+            if (error==nil){
+                self.performSegue(withIdentifier: "irInicioRegistro", sender: self)
+            }else{
+                print("ERROR EN REGISTRO: ", error)
+            }
+        }
 
         if (userTExtField.text == "" || passTextField.text == "" || repassTextField.text == ""){
             displayMyAlertMessage1()
