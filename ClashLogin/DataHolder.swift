@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class DataHolder: NSObject {
     
@@ -18,6 +19,16 @@ class DataHolder: NSObject {
     
     var numCelCol:UInt=8
     
+    var locationAdmin:LocationAdmin?
+    
+    func initFireBase(){
+    FIRApp.configure()
+    }
+    func initlocationAdmin(){
+        
+        locationAdmin=LocationAdmin()
+        
+    }
     }
     
 

@@ -6,6 +6,11 @@ target 'ClashLogin' do
   use_frameworks!
 
   # Pods for ClashLogin
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Messaging'
 
   target 'ClashLoginTests' do
     inherit! :search_paths
